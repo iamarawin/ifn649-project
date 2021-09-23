@@ -3,7 +3,7 @@
 echo "Start Initialization"
 
 echo "Update all"
-sudo apt-get update
+sudo apt-get update #Update linux
 
 if [$? -eq 0 ]
 then
