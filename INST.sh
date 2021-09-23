@@ -2,6 +2,16 @@
 
 echo "Start Initialization"
 
+echo "Update all"
+sudo apt-get update
+
+if [$? -eq 0 ]
+then
+    echo "Installation complete!"
+else
+    echo "Installation error!"
+fi
+
 echo "Installing epel"
 sudo amazon-linux-extras install -y epel
 if [ $? -eq 0 ]
