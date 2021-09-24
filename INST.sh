@@ -8,7 +8,7 @@ yum check-update bash #Check bash for updates
 echo "Update bash"
 sudo yum update bash
 
-    echo "Installation complete!"
+echo "Installation complete!"
 
 echo "Installing epel"
 sudo amazon-linux-extras install -y epel
