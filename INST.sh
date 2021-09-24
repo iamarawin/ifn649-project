@@ -2,14 +2,13 @@
 
 echo "Start Initialization"
 
-echo "Update all"
-sudo apt-get update #Update linux
+echo "Check bash version"
+yum check-update bash #Check bash for updates
 
-if [$? -eq 0 ]
-then
+echo "Update bash"
+sudo yum update bash
+
     echo "Installation complete!"
-else
-    echo "Installation error!"
 fi
 
 echo "Installing epel"
