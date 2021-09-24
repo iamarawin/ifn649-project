@@ -9,7 +9,6 @@ echo "Update bash"
 sudo yum update bash
 
     echo "Installation complete!"
-fi
 
 echo "Installing epel"
 sudo amazon-linux-extras install -y epel
